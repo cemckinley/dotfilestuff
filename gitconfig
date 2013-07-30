@@ -1,0 +1,25 @@
+[user]
+	name = Cara McKinley
+	email = cemckinley@gmail.com
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+
+[http]
+	postBuffer = 524288000
+
+[alias]
+  st = status
+  co = checkout
+  staged = diff --cached
+  unstaged = diff
+  both = diff HEAD
+
+  # find a file in codebase
+  f = "!git ls-files | grep -i"
+
+  # list aliases
+  la = "!git config -l | grep alias | cut -c 7-"

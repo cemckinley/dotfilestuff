@@ -1,0 +1,6 @@
+# Add second git user/key #
+###########################
+Host [domain]
+	User			git
+	Hostname 		[domain]
+	IdentityFile	~/.ssh/[ssh key file]
