@@ -17,6 +17,7 @@
   staged = diff --cached
   unstaged = diff
   both = diff HEAD
+  filemerge = git mergetool -t opendiff
 
   # find a file in codebase
   f = "!git ls-files | grep -i"
